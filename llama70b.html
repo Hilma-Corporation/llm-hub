@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variantes du modèle Meta-Llama-3-70B-Instruct</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 150px;
+            height: auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: inline-block;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: left;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button .size {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 5px 10px;
+            border-radius: 12px;
+            font-size: 0.9em;
+        }
+        .IQ1 { background-color: #800000; }
+        .IQ2 { background-color: #008080; }
+        .Q4 { background-color: #FFC107; }
+        .button:hover {
+            opacity: 0.8;
+        }
+        .legend {
+            margin-top: 20px;
+        }
+        .legend div {
+            margin: 5px 0;
+        }
+        .legend span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/Hilma-Corporation/logo/main/logo_transparent_background.png" alt="Hilma Corporation Logo">
+        </div>
+        <h1>Meta-Llama-3-70B-Instruct</h1>
+        <a href="https://gofile.me/7srKA/dEIQPonn9" class="button IQ1">
+            <span>IQ1_M</span>
+            <span class="size">16.8 GB</span>
+        </a>
+        <a href="https://gofile.me/7srKA/kFC22H98T" class="button IQ2">
+            <span>IQ2_XS</span>
+            <span class="size">21.1 GB</span>
+        </a>
+        <a href="https://gofile.me/7srKA/DoLeskvKu" class="button Q4">
+            <span>Q4_K_M</span>
+            <span class="size">42.5 GB</span>
+        </a>
+        
+        <div class="legend">
+            <h3>Légende :</h3>
+            <div><span style="background-color: #800000;"></span>1-bit integer quantization (IQ1)</div>
+            <div><span style="background-color: #008080;"></span>2-bit integer quantization (IQ2)</div>
+            <div><span style="background-color: #FFC107;"></span>4-bit quantization (Q4)</div>
+        </div>
+    </div>
+</body>
+</html>
